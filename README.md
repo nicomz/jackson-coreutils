@@ -34,7 +34,7 @@ With Gradle:
 
 ```groovy
 dependencies {
-    compile(group: "com.github.fge", name: "jackson-coreutils", version: "1.8");
+    compile(group: "com.github.java-json-tools", name: "jackson-coreutils", version: "1.9");
 }
 ```
 
@@ -42,9 +42,9 @@ With Maven:
 
 ```xml
 <dependency>
-    <groupId>com.github.fge</groupId>
+    <groupId>com.github.java-json-tools</groupId>
     <artifactId>jackson-coreutils</artifactId>
-    <version>1.8</version>
+    <version>1.9</version>
 </dependency>
 ```
 
