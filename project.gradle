@@ -20,14 +20,10 @@
 /*
  * Project-specific settings. Unfortunately we cannot put the name in there!
  */
-group = "com.github.fge";
+group = "com.github.java-json-tools";
 version = "1.9-SNAPSHOT";
 sourceCompatibility = "1.6";
 targetCompatibility = "1.6"; // defaults to sourceCompatibility
-
-project.ext {
-    description = "JSON Pointer (RFC 6901) and numeric equality for Jackson (2.2.x)";
-};
 
 /*
  * List of dependencies
