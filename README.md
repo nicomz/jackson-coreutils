@@ -1,7 +1,13 @@
+[![License LGPLv3][LGPLv3 badge]][LGPLv3]
+[![License ASL 2.0][ASL 2.0 badge]][ASL 2.0]
+[![Build Status][Travis badge]][Travis]
+![Maven Central](https://img.shields.io/maven-central/v/com.github.java-json-tools/jackson-coreutils.svg)
+
+
 ## Read me first
 
-This project, as of version 1.5, is licensed under both LGPLv3 and ASL 2.0. See
-file LICENSE for more details. Versions 1.0 and lower are licensed under LGPLv3
+This project, as of version 1.5, is dual licensed under both [LGPLv3] and [ASL 2.0]. See
+file LICENSE for more details. Versions 1.0 and lower are licensed under [LGPLv3]
 only.
 
 This project uses [Gradle](http://www.gradle.org) as a build system. See file `BUILD.md` for
@@ -23,7 +29,7 @@ This package is meant to be used with Jackson 2.2.x. It provides the three follo
 
 ## Versions
 
-The current verson is **1.8**. Its Javadoc is [available
+The current verson is **1.9**. Its Javadoc is [available
 online](http://fge.github.io/jackson-coreutils/index.html).
 
 Please see file `RELEASE-NOTES.md` for more information.
@@ -200,3 +206,9 @@ if (!ptr.path(node).isMissingNode())
     // do something
 ```
 
+[LGPLv3 badge]: https://img.shields.io/:license-LGPLv3-blue.svg
+[LGPLv3]: http://www.gnu.org/licenses/lgpl-3.0.html
+[ASL 2.0 badge]: https://img.shields.io/:license-Apache%202.0-blue.svg
+[ASL 2.0]: http://www.apache.org/licenses/LICENSE-2.0.html
+[Travis Badge]: https://api.travis-ci.org/java-json-tools/jackson-coreutils.svg?branch=master
+[Travis]: https://travis-ci.org/java-json-tools/jackson-coreutils
