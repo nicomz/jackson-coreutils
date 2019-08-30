@@ -22,23 +22,23 @@
  */
 group = "com.github.java-json-tools";
 version = "1.10-SNAPSHOT";
-sourceCompatibility = "1.6";
-targetCompatibility = "1.6"; // defaults to sourceCompatibility
+sourceCompatibility = JavaVersion.VERSION_1_6;
+targetCompatibility = JavaVersion.VERSION_1_6; // defaults to sourceCompatibility
 
 /*
  * List of dependencies
  */
 dependencies {
-    compile(group: "com.fasterxml.jackson.core", name: "jackson-databind", version: "2.2.3");
-    compile(group: "com.google.guava", name: "guava", version: "16.0.1");
-    compile(group: "com.github.fge", name: "msg-simple", version: "1.1");
-    compile(group: "com.google.code.findbugs", name: "jsr305", version: "2.0.1");
-    testCompile(group: "org.testng", name: "testng", version: "6.8.7") {
+    implementation(group: "com.fasterxml.jackson.core", name: "jackson-databind", version: "2.2.3");
+    implementation(group: "com.google.guava", name: "guava", version: "16.0.1");
+    implementation(group: "com.github.fge", name: "msg-simple", version: "1.1");
+    implementation(group: "com.google.code.findbugs", name: "jsr305", version: "2.0.1");
+    testImplementation(group: "org.testng", name: "testng", version: "6.8.7") {
         exclude(group: "junit", module: "junit");
         exclude(group: "org.beanshell", module: "bsh");
         exclude(group: "org.yaml", module: "snakeyaml");
     };
-    testCompile(group: "org.mockito", name: "mockito-core", version: "1.9.5");
+    testImplementation(group: "org.mockito", name: "mockito-core", version: "1.9.5");
 }
 
 javadoc.options.links("http://docs.oracle.com/javase/6/docs/api/");
