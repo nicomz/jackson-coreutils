@@ -29,7 +29,7 @@ targetCompatibility = JavaVersion.VERSION_1_6; // defaults to sourceCompatibilit
  * List of dependencies
  */
 dependencies {
-    implementation(group: "com.fasterxml.jackson.core", name: "jackson-databind", version: "2.2.3");
+    implementation(group: "com.fasterxml.jackson.core", name: "jackson-databind", version: "2.9.9");
     implementation(group: "com.google.guava", name: "guava", version: "16.0.1");
     implementation(group: "com.github.fge", name: "msg-simple", version: "1.1");
     implementation(group: "com.google.code.findbugs", name: "jsr305", version: "2.0.1");
