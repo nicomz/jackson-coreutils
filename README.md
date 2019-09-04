@@ -29,8 +29,8 @@ This package is meant to be used with Jackson 2.2.x. It provides the three follo
 
 ## Versions
 
-The current verson is **1.10**. -Its Javadoc is [available
-online](http://fge.github.io/jackson-coreutils/index.html).-
+The current verson is **1.10**. Its Javadoc is [available
+online](https://java-json-tools.github.io/jackson-coreutils/index.html).
 
 Please see file `RELEASE-NOTES.md` for more information.
 
