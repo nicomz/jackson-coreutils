@@ -1,3 +1,16 @@
+## 1.10
+
+* Update Guava to 25.1-jre for
+  [CVE-2018-10237](https://nvd.nist.gov/vuln/detail/CVE-2018-10237).
+* Update Jackson Databind to 2.9.9 for
+  [CVE-2017-7525](https://nvd.nist.gov/vuln/detail/CVE-2017-7525).
+
+## 1.9
+
+* First time publishing under com.github.java-json-tools.
+* Fixes to allow downstream code to support Guava 21 without class/method
+  name conflicts.
+
 ## 1.8
 
 * Really fix resource loading; first attempt to use the old system for loading,
