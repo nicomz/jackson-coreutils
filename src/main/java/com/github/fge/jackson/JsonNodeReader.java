@@ -67,6 +67,10 @@ public final class JsonNodeReader
 
     private final ObjectReader reader;
 
+    public static MessageBundle getBundle(){
+        return BUNDLE;
+    }
+
     public JsonNodeReader(final ObjectMapper mapper)
     {
         reader = mapper.configure(JsonParser.Feature.AUTO_CLOSE_SOURCE, true)
